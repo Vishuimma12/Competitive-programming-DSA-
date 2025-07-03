@@ -27,6 +27,6 @@ int main() {
     cout<<size<<endl;
     cout<<size2<<endl;
     cout<<size3<<endl;
-    cout<<size4<<endl;
+    cout<<size4<<'\n';
 
 }
