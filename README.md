@@ -27,7 +27,7 @@ It includes solutions to a wide range of problems from various platforms and con
 ## 💻 Language Used
 
 - **C++**  
-  Using STL (Standard Template Library) for efficient coding and optimization.
+  Using STL (Standard Template Library) for efficient coding and optimizations.
 
 ---
 
