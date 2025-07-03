@@ -6,7 +6,11 @@ int main() {
     int a;
     int b;
     int sum=0;
-    cin>>a>>b;
+    cout<<"Enter a number: ";
+    cin>>a;
+    cout<<"Enter a number: ";
+    cin>>b;
+
     sum=a+b;
-    cout<<sum;
+    cout<<"Sum of the nuber is: " <<sum;
 }
