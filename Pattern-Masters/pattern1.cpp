@@ -1,14 +1,12 @@
 //
 // Created by vssin on 06-07-2025.
 //
-
-#include <algorithm>
 #include <iostream>  // Include input/output stream library
 using namespace std;
 
 int main() {
     // Introduction
-    cout << "Triangle pattern Questions with different output." << endl;
+    cout << "Right Angle Triangle pattern Questions with different output." << endl;
 
     int n;  // Variable to store the number of rows
     cout << "Enter the number: ";
@@ -69,6 +67,34 @@ int main() {
         cout << endl;
         i = i + 1;
     }
+
+    cout << "Reverse Star pattern '*' of a triangle: "<<endl;
+    i = 0;
+    while (i < n) {
+        int j = i;
+        while (j<n) {
+            cout << "* ";
+            j = j + 1;
+        }
+        cout << endl;
+        i = i + 1;
+    }
+
+    cout << "Row Wise Count pattern of Reverse right angle triangle: "<<endl;
+    i = 0;
+    while (i < n) {
+        int j = i;
+        coun=0;
+        while (j<n) {
+            coun=coun+1;
+            cout << coun<<" ";
+            j = j + 1;
+        }
+        cout << endl;
+        i = i + 1;
+    }
+
+
 
     return 0;  // Indicate successful execution
 }
