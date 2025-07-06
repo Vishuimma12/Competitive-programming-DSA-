@@ -2,6 +2,7 @@
 // Created by vssin on 06-07-2025.
 //
 
+#include <algorithm>
 #include <iostream>  // Include input/output stream library
 using namespace std;
 
@@ -49,6 +50,20 @@ int main() {
         // Print the row number (i+1) j+1 times
         while (j <= i) {
             cout << (i + 1) << " ";
+            j = j + 1;
+        }
+        cout << endl;
+        i = i + 1;
+    }
+
+    cout << "Counting in sequence"<<endl;
+    i = 0;
+    int coun=0;
+    while (i < n) {
+        int j = 0;
+        while (j <= i) {
+            coun=coun+1;
+            cout << coun << " ";
             j = j + 1;
         }
         cout << endl;
