@@ -39,21 +39,21 @@ int main() {
 
     // Shadowing variables (redeclaring variables with same name in inner blocks)
     if (true) {
-        int a = 9; // 🟠 Shadows main's `a` within this block
+        int a = 9; // Shadows main's `a` within this block
         cout << "Inside outer if block - a = " << a << endl;
 
         if (true) {
-            int a = 11; // 🟠 Shadows outer if block's `a`
+            int a = 11; // Shadows outer if block's `a`
             cout << "Inside inner if block - a = " << a << endl;
 
             if (true) {
-                int a = 13; // 🟠 Shadows previous `a`
+                int a = 13; //  Shadows previous `a`
                 cout << "Inside deepest if block - a = " << a << endl;
             }
         }
     }
 
-    // 🔸 Function-local scope
+    // Function-local scope
     scopeTestFunction();
 
     return 0;
