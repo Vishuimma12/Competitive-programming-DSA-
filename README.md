@@ -32,4 +32,11 @@ It includes solutions to a wide range of problems from various platforms and con
 ---
 
 ## 📁 Folder Structure
+| 🧩 Step | 📚 Topic                                   | 📁 Folder Link                                                               |
+| ------: | ------------------------------------------ | ---------------------------------------------------------------------------- |
+|     1️⃣ | **Getting Started**                        | [📂 01-Getting-Started](./01-Getting-Started)                                |
+|     2️⃣ | **Variables, Scope & Operator Precedence** | [📂 02-Variable--Scope--OP\_Precedence](./02-Variable--Scope--OP_Precedence) |
+|     3️⃣ | **Loops & Conditions**                     | [📂 03-Condition--Loop](./03-Condition--Loop)                                |
+|     4️⃣ | **Bitwise Operators**                      | [📂 04-Bitwise-operator](./04-Bitwise-operator)                              |
+|     5️⃣ | **Pattern Problems**                       | [📂 05-Pattern-Masters](./05-Pattern-Masters)                                |
 
