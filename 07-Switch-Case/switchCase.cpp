@@ -8,10 +8,17 @@ int main() {
     char ch ;
     cin >> ch;
     cout << endl;
+    int num;
+    num=ch;
 
     switch (ch) {
         case 'a':
-            cout << "Char "<<ch;
+            cout << "Char "<<ch<<endl;
+            switch (num) {
+                case 97:
+                    cout << "Num will change in char: " << char(num);
+                    break;
+            }
             break;
         case 'b':
             cout << "Char "<<ch;
