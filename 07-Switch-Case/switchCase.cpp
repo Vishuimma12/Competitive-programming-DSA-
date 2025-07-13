@@ -60,3 +60,5 @@ int main() {
             cout << "its an Defalut Character "<<ch;
     }
 }
+
+// continue ---> Not valid for switch case...
