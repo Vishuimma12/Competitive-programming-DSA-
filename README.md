@@ -42,4 +42,4 @@ It includes solutions to a wide range of problems from various platforms and con
 |    5️⃣  | **Pattern Problems**                       | [📂 05-Pattern-Masters](./05-Pattern-Masters)                                 |
 |    6️⃣  | **Decimal to Binary**                      | [📂 06-Decimal-Binary](./06-Decimal-Binary)                                   |
 |    7️⃣  | **Switch Case**                            | [📂 07-Switch-Case](./07-Switch-Case)                                         |
-|    8️⃣  | **Functions**                              | [📂 07-Function](./07-Function)                                               |
+|    8️⃣  | **Functions**                              | [📂 07-Function](./08-Function)                                               |
