@@ -67,3 +67,21 @@ int main() {
 // end - start is always ≤ size of array (a safe number).
 // So (end - start)/2 will never overflow.
 // Adding it back to start keeps it inside valid integer range
+
+// 🔍 Linear Search (O(n))
+
+// Checks each element one by one from start to end.
+// Worst case: if the element is not present (or at the last index), it will check all n elements.
+// 👉 Time complexity: O(n)
+
+// ⚡ Binary Search (O(log n))
+
+// Checks the middle element first.
+// Each comparison eliminates half of the remaining elements.
+// Worst case: at most log₂(n) comparisons.
+// 👉 Time complexity: O(log n)
+
+// 📊 Example: Searching in 1,000,000 (10⁶) elements
+// Method	Steps Required (Worst Case)
+// Linear Search	1,000,000 steps
+// Binary Search	log₂(1,000,000) ≈ 20 steps
