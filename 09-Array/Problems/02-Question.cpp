@@ -56,6 +56,7 @@ using namespace std;
 int secondLargest(int arr[], int n) {
     int largest = arr[0];
     int sLargest = -1; //if all the element are positive then I can also assign -1 ot sLargest.
+
     for (int i = 1; i < n; i++) {
         if (arr[i] > largest) {
             sLargest = largest;
