@@ -57,7 +57,13 @@ void rotate_by_D_place(vector<int> &nums, int d) {
 int main() {
     vector<int> nums = {1,2,3,4,5,6,7,8,9,10};
     printArray(nums);
-    rotate_by_D_place(nums, 3);  // left rotate by 3
+    cout << endl;
+    cout << "Enter a number you want to rotate by ";
+    int n;
+    cin >> n;
+    rotate_by_D_place(nums, n);  // left rotate by 3
     printArray(nums); // Output: 4 5 6 7 8 9 10 1 2 3
     return 0;
 }
+
+// try: right rotate an array by D place...
